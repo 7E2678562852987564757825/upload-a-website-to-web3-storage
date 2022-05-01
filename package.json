@@ -1,0 +1,18 @@
+{
+  "name": "test-web3-storage",
+  "version": "1.0.0",
+  "description": "testing web3 storage deployment of a website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js ./src/*"
+  },
+  "keywords": [],
+  "author": "7E2678562852987564757825",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "minimist": "^1.2.5",
+    "web3.storage": "^4.2.0"
+  }
+}
